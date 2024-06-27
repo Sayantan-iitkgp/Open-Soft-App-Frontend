@@ -1,0 +1,58 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependency directories
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local environment files
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and editor files
+/.vscode
+/.idea
+
+# Log files
+npm-debug.log*
+
+# Tailwind CSS build directory
+/dist
+
+# Android build output directory
+/android/app/build
+
+# iOS build output directory
+/ios/build
+
+# Yarn lockfile
+yarn.lock
+
+package-lock.json
+
+
